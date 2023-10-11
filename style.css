@@ -69,19 +69,39 @@ body {
 }
 
 .left_sb {
-    background-color: aqua;
+    background-color: #0ea5e9;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    padding-left: 20px;
 }
 
 .left_sb .logo {
     width: 200px;
+    margin-top: -70px;
 }
 
 .sb-links {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.sb-links li {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: ghostwhite;
+}
+
+.sb-links li i {
+    margin-right: 20px;
+}
+
+.tabs ul,
+.admin ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .nav {
@@ -128,17 +148,31 @@ body {
     grid-column: 1 / 2;
     display: flex;
     align-items: center;
+    margin-left: 40px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text h2 {
+    font-size: 1.3rem;
 }
 
 .buttons {
     grid-column: 2 / 3;
     display: flex;
     align-items: center;
+    gap: 30px;
 }
 
 .buttons button {
     width: 100px;
     height: 30px;
+    background-color: #0ea5e9;
 }
 
 .wrapper {
@@ -247,8 +281,11 @@ body {
 }
 
 .buttons button {
-    background-color: aqua;
+    background-color: #0ea5e9;
     border-radius: 25px;
+    border: none;
+    color: ghostwhite;
+    font-weight: 600;
 }
 
 .id a img {
@@ -257,6 +294,6 @@ body {
 }
 
 .welcome a img {
-    width: 100px;
+    width: 75px;
     border-radius: 50%;
 }
