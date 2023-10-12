@@ -33,7 +33,7 @@ And here's the example provided:
 ### Links
 
 - Solution URL: [solution](https://github.com/importvince/admin-dash)
-- Live Site URL: [live site](https://importvince.github.io/signup-form/)
+- Live Site URL: [live site](https://importvince.github.io/admin-dash/)
 
 ## My process
 
